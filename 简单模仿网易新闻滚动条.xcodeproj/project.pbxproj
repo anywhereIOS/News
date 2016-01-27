@@ -10,9 +10,12 @@
 		93E4B3051C577DE000E8C423 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E4B3041C577DE000E8C423 /* main.m */; };
 		93E4B3081C577DE000E8C423 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E4B3071C577DE000E8C423 /* AppDelegate.m */; };
 		93E4B30B1C577DE000E8C423 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E4B30A1C577DE000E8C423 /* ViewController.m */; };
-		93E4B30E1C577DE000E8C423 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93E4B30C1C577DE000E8C423 /* Main.storyboard */; };
 		93E4B3101C577DE000E8C423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93E4B30F1C577DE000E8C423 /* Assets.xcassets */; };
 		93E4B3131C577DE000E8C423 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93E4B3111C577DE000E8C423 /* LaunchScreen.storyboard */; };
+		93E4B31C1C577E2600E8C423 /* WTNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E4B31B1C577E2600E8C423 /* WTNavController.m */; };
+		93E4B31F1C58A4FB00E8C423 /* WTOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E4B31E1C58A4FB00E8C423 /* WTOneViewController.m */; };
+		93E4B3221C58A51000E8C423 /* WTTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E4B3211C58A51000E8C423 /* WTTwoViewController.m */; };
+		93E4B3251C58A52A00E8C423 /* WTThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E4B3241C58A52A00E8C423 /* WTThreeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +25,17 @@
 		93E4B3071C577DE000E8C423 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		93E4B3091C577DE000E8C423 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		93E4B30A1C577DE000E8C423 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		93E4B30D1C577DE000E8C423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93E4B30F1C577DE000E8C423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93E4B3121C577DE000E8C423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93E4B3141C577DE000E8C423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93E4B31A1C577E2600E8C423 /* WTNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTNavController.h; sourceTree = "<group>"; };
+		93E4B31B1C577E2600E8C423 /* WTNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTNavController.m; sourceTree = "<group>"; };
+		93E4B31D1C58A4FB00E8C423 /* WTOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTOneViewController.h; sourceTree = "<group>"; };
+		93E4B31E1C58A4FB00E8C423 /* WTOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTOneViewController.m; sourceTree = "<group>"; };
+		93E4B3201C58A51000E8C423 /* WTTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTTwoViewController.h; sourceTree = "<group>"; };
+		93E4B3211C58A51000E8C423 /* WTTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTTwoViewController.m; sourceTree = "<group>"; };
+		93E4B3231C58A52A00E8C423 /* WTThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTThreeViewController.h; sourceTree = "<group>"; };
+		93E4B3241C58A52A00E8C423 /* WTThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTThreeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +72,18 @@
 				93E4B3071C577DE000E8C423 /* AppDelegate.m */,
 				93E4B3091C577DE000E8C423 /* ViewController.h */,
 				93E4B30A1C577DE000E8C423 /* ViewController.m */,
-				93E4B30C1C577DE000E8C423 /* Main.storyboard */,
 				93E4B30F1C577DE000E8C423 /* Assets.xcassets */,
 				93E4B3111C577DE000E8C423 /* LaunchScreen.storyboard */,
 				93E4B3141C577DE000E8C423 /* Info.plist */,
 				93E4B3031C577DE000E8C423 /* Supporting Files */,
+				93E4B31A1C577E2600E8C423 /* WTNavController.h */,
+				93E4B31B1C577E2600E8C423 /* WTNavController.m */,
+				93E4B31D1C58A4FB00E8C423 /* WTOneViewController.h */,
+				93E4B31E1C58A4FB00E8C423 /* WTOneViewController.m */,
+				93E4B3201C58A51000E8C423 /* WTTwoViewController.h */,
+				93E4B3211C58A51000E8C423 /* WTTwoViewController.m */,
+				93E4B3231C58A52A00E8C423 /* WTThreeViewController.h */,
+				93E4B3241C58A52A00E8C423 /* WTThreeViewController.m */,
 			);
 			path = "简单模仿网易新闻滚动条";
 			sourceTree = "<group>";
@@ -105,6 +122,7 @@
 		93E4B2F81C577DE000E8C423 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WT;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = 304;
 				TargetAttributes = {
@@ -139,7 +157,6 @@
 			files = (
 				93E4B3131C577DE000E8C423 /* LaunchScreen.storyboard in Resources */,
 				93E4B3101C577DE000E8C423 /* Assets.xcassets in Resources */,
-				93E4B30E1C577DE000E8C423 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,8 +167,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93E4B31C1C577E2600E8C423 /* WTNavController.m in Sources */,
+				93E4B31F1C58A4FB00E8C423 /* WTOneViewController.m in Sources */,
 				93E4B30B1C577DE000E8C423 /* ViewController.m in Sources */,
+				93E4B3251C58A52A00E8C423 /* WTThreeViewController.m in Sources */,
 				93E4B3081C577DE000E8C423 /* AppDelegate.m in Sources */,
+				93E4B3221C58A51000E8C423 /* WTTwoViewController.m in Sources */,
 				93E4B3051C577DE000E8C423 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,14 +180,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		93E4B30C1C577DE000E8C423 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				93E4B30D1C577DE000E8C423 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		93E4B3111C577DE000E8C423 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
