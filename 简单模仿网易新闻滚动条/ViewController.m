@@ -106,7 +106,7 @@
     self.topScrollView.pagingEnabled = NO;
     self.topScrollView.backgroundColor = [UIColor redColor];
     [self.view addSubview:self.topScrollView];
-    UIView *btnView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 16*50+15*pading, 30)];
+    UIView *btnView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 18*28+15*pading, 30)];
     self.btnView = btnView;
     [self.topScrollView addSubview:btnView];
 }
